@@ -55,11 +55,15 @@ Java의 진화
 
 ![TIOBE](https://i.imgur.com/ycJ8xxZ.png)
 
+> 이미지 직접 캡처: [https://www.tiobe.com/tiobe-index/](https://www.tiobe.com/tiobe-index/)
+
 * 구인공고
 
   > 사람인 검색 결과
 
 ![image-20200629061932167](1-Java는-왜-변화하는가.assets/image-20200629061932167.png)
+
+> 이미지 직접 캡처 :  사람인
 
 ## Java의 2가지 측면
 
@@ -76,7 +80,7 @@ Java의 진화
 
 ![Figure showing MyProgram.java, API, Java Virtual Machine, and Hardware-Based Platform](https://docs.oracle.com/javase/tutorial/figures/getStarted/getStarted-jvm.gif)
 
-> 이미지 출처: https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html
+> 이미지 링크: https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html
 
 <!-- -->
 
@@ -97,6 +101,8 @@ Java의 진화
 
 ![](https://miro.medium.com/max/1400/1*crYMLTlfzREkCvyYRE6q1w.png)
 
+> 이미지 링크: https://towardsdatascience.com/programming-languages-for-data-scientists-afde2eaf5cc5
+
 ## Cloud Native
 
 * CNCF 재단
@@ -104,6 +110,8 @@ Java의 진화
   * 상위 프로젝트 중 Java 언어로 이루어진 프로젝트나 Java 관련 프로젝트가 거의 없음
 
 ![landscape-1](1-Java는-왜-변화하는가.assets/landscape-1.jpg)
+
+이미지 출처: [cncf.io](https://landscape.cncf.io/)
 
 # Java Ecosystem
 
@@ -138,6 +146,8 @@ OpenJDK와 OracleJDK 의 관계
 
 ![](https://dzone.com/storage/temp/11772392-screen-shot-2019-05-02-at-41652-pm.png)
 
+> 이미지 링크: [DZone: Beyond Java 8](https://dzone.com/articles/beyond-java-8)
+
 ## 스펙
 
 Java 1.2에서 나눠진 스펙인 ME, SE,  EE를 다시 통합
@@ -145,6 +155,8 @@ Java 1.2에서 나눠진 스펙인 ME, SE,  EE를 다시 통합
 
 
 ![](https://www.oracle.com/ocom/groups/public/@otn/documents/digitalasset/2167990.jpg)
+
+> 이미지 링크: https://docs.oracle.com/javase/8/docs/index.html
 
 
 
@@ -176,7 +188,7 @@ Java 1.2에서 나눠진 스펙인 ME, SE,  EE를 다시 통합
 
 ![GraalVM](https://www.graalvm.org/docs/img/graalvm_architecture.png)
 
-
+> 이미지 링크: [graalvm.org](https://www.graalvm.org/docs/)
 
 <!-- -->
 
