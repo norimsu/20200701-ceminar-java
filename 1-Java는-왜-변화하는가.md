@@ -64,6 +64,7 @@ Java의 진화
 
 ![image-20200629061932167](https://github.com/norimsu/20200701-ceminar-java/raw/develop/1-Java%EB%8A%94-%EC%99%9C-%EB%B3%80%ED%99%94%ED%95%98%EB%8A%94%EA%B0%80.assets/image-20200629061932167.png)
 
+
 > 이미지 직접 캡처: 사람인
 
 ---
@@ -108,6 +109,8 @@ Java의 진화
 
 ![](https://miro.medium.com/max/1400/1*crYMLTlfzREkCvyYRE6q1w.png)
 
+> 이미지 링크: https://towardsdatascience.com/programming-languages-for-data-scientists-afde2eaf5cc5
+
 ## Cloud Native
 
 * CNCF 재단
@@ -115,6 +118,8 @@ Java의 진화
   * 상위 프로젝트 중 Java 언어로 이루어진 프로젝트나 Java 관련 프로젝트가 거의 없음
 
 ![landscape-1](https://raw.githubusercontent.com/norimsu/20200701-ceminar-java/develop/1-Java는-왜-변화하는가.assets/landscape-1.jpg)
+
+이미지 출처: [cncf.io](https://landscape.cncf.io/)
 
 # Java Ecosystem
 
@@ -149,6 +154,8 @@ OpenJDK와 OracleJDK 의 관계
 
 ![](https://dzone.com/storage/temp/11772392-screen-shot-2019-05-02-at-41652-pm.png)
 
+> 이미지 링크: [DZone: Beyond Java 8](https://dzone.com/articles/beyond-java-8)
+
 ## 스펙
 
 Java 1.2에서 나눠진 스펙인 ME, SE,  EE를 다시 통합
@@ -156,6 +163,8 @@ Java 1.2에서 나눠진 스펙인 ME, SE,  EE를 다시 통합
 
 
 ![](https://www.oracle.com/ocom/groups/public/@otn/documents/digitalasset/2167990.jpg)
+
+> 이미지 링크: https://docs.oracle.com/javase/8/docs/index.html
 
 
 
@@ -187,7 +196,7 @@ Java 1.2에서 나눠진 스펙인 ME, SE,  EE를 다시 통합
 
 ![GraalVM](https://www.graalvm.org/docs/img/graalvm_architecture.png)
 
-
+> 이미지 링크: [graalvm.org](https://www.graalvm.org/docs/)
 
 <!-- -->
 

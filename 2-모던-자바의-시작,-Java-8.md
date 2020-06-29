@@ -76,7 +76,6 @@ Java 8 전환 방법
 
 * Maven 3.3+ - 최소 Java 1.7 이상
 * Gradle - 기본 Java 8 이상 구동
-
 * Spring 5 - 최소 Java 8 이상
 * 클라우드 서비스 ([MS Azure](https://docs.microsoft.com/ko-kr/azure/developer/java/sdk/java-sdk-azure-get-started), [AWS](https://aws.amazon.com/ko/sdk-for-java/)) - Java 8+
 
@@ -92,9 +91,16 @@ Java 8 전환 방법
 > Java 9부터 제거된 API들이 존재하고, 모듈 방식을 지원하면서 코드 작성이 필요한 부분이 발생한다.
 
 * Java 8은 거의 모든 OS 에서 지원한다.
-
 * Java 9의 모듈 시스템 (Project Jigsaw)
 * Java 9, 10 에서 제거된 deprecated API
+
+![](http://cr.openjdk.java.net/~mchung/jigsaw/graphs/jdk8-b48-nobase.png)
+
+> 이미지 링크: [https://openjdk.java.net/projects/jigsaw/](http://openjdk.java.net/projects/jigsaw/doc/jdk-modularization.html)
+
+
+
+<!-- -->
 
 ![](http://cr.openjdk.java.net/~mchung/jigsaw/graphs/jdk8-b48-nobase.png)
 
@@ -369,10 +375,6 @@ $ Java \
 ## 레퍼런스
 
 https://www.baeldung.com/java-8-date-time-intro
-
-
-
-
 
 
 
