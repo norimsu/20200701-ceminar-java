@@ -46,6 +46,8 @@ Java의 진화
 
 기본적으로 Java가 제공하는 표준 라이브러리도 풍부하지만 추가적으로 매우 많은 라이브러리가 있습니다. 그리고 Maven이나 Gradle 같은 도구를 통해 쉽게 빌드가 가능합니다.
 
+---
+
 ## Java의 인기
 
 > * 세계 및 국내 점유율
@@ -55,28 +57,37 @@ Java의 진화
 
 ![TIOBE](https://i.imgur.com/ycJ8xxZ.png)
 
-* 구인공고
+> 이미지 직접 캡처: [https://www.tiobe.com/tiobe-index/](https://www.tiobe.com/tiobe-index/)
 
-  > 사람인 검색 결과
+* 구인공고
+  * 사람인 검색 결과
 
 ![image-20200629061932167](https://github.com/norimsu/20200701-ceminar-java/raw/develop/1-Java%EB%8A%94-%EC%99%9C-%EB%B3%80%ED%99%94%ED%95%98%EB%8A%94%EA%B0%80.assets/image-20200629061932167.png)
+
+> 이미지 직접 캡처: 사람인
+
+---
 
 ## Java의 2가지 측면
 
 > * 언어로서의 자바
 > * 플랫폼으로서의 자바
 
-* Java Laguage
+* Java Language
 
 ![Figure showing source code, compiler, and Java VM's for Win32, Solaris OS/Linux, and Mac OS](https://docs.oracle.com/javase/tutorial/figures/getStarted/helloWorld.gif)
 
 * Java Platform
-  * JVM, API(JDK, JRE)
+  * JVM, Java API (JDK, JRE)
   * JVM 위에서 사용되는 언어 : Java, Kotlin, Groovy, Skala 등
 
 ![Figure showing MyProgram.java, API, Java Virtual Machine, and Hardware-Based Platform](https://docs.oracle.com/javase/tutorial/figures/getStarted/getStarted-jvm.gif)
 
-> 이미지 출처: https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html
+> 이미지 링크: https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html
+
+---
+
+
 
 <!-- -->
 

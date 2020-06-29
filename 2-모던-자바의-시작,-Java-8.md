@@ -80,7 +80,7 @@ Java 8 전환 방법
 * Spring 5 - 최소 Java 8 이상
 * 클라우드 서비스 ([MS Azure](https://docs.microsoft.com/ko-kr/azure/developer/java/sdk/java-sdk-azure-get-started), [AWS](https://aws.amazon.com/ko/sdk-for-java/)) - Java 8+
 
-> 스프링 피드백 내용 중
+> 스프링 피드백 내용 中
 >
 > "우리는 JDK 8+로 최소값을 올릴 것입니다.
 > 이는 프레임워크 전반에 걸쳐 보다 깨끗한 코드 기반을 구축하고, 핵심 인터페이스에 기본 메서드 구현을 도입하며, 우리의 코어 추상화에서 JDK 8 API(예: Completetable, java.util.function 인터페이스)에 의존할 수 있기 때문에 필수 조건입니다.
@@ -108,12 +108,37 @@ Java 8 전환 방법
 
 # New Feature
 
+[What's New in JDK8](https://www.oracle.com/java/technologies/javase/8-whats-new.html)
+
 ## Interface의 변화
 
 > 자바 인터페이스에서도 구현 메서드를 작성할 수 있게 되었다.
 
 * defaut method
 * static method
+
+```java
+public interface Vehicle {
+
+    String getBrand();
+
+    String speedUp();
+
+    String slowDown();
+
+    default String turnAlarmOn() {
+        return "Turning the vehice alarm on.";
+    }
+
+    default String turnAlarmOff() {
+        return "Turning the vehicle alarm off.";
+    }
+
+    static int getHorsePower(int rpm, int torque) {
+        return (rpm * torque) / 5252;
+    }
+}
+```
 
 ---
 
@@ -129,12 +154,27 @@ Java 8 전환 방법
 
 * 다중 상속 관계
 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Diamond_inheritance.svg/440px-Diamond_inheritance.svg.png)
+
 ## Lambda Expression
 
 > 익명 클래스 및 익명 메서드를 축약하여 표현할 수 있는 방법이 추가되었다.
 
 * 함수형 인터페이스
 * 메서드 레퍼런스
+
+```java
+// 일반적인 코드
+Runnable runnable = new Runnable() {
+    @Override
+    public void run(){
+        System.out.println("Hello world !");
+    }
+};
+
+// use Lambda Expression
+Runnable runnable = () -> System.out.print("Hello world!");
+```
 
 ---
 
@@ -145,6 +185,14 @@ Java 8 전환 방법
 ## Stream
 
 > Stream API 의 도입으로 선언적 프로그래밍이 가능해졌다.
+
+```java
+list.stream()
+    .filter(name -> name.startWith("f"))
+    .map(String::toUpperCase)
+    .sorted()
+    .forEach(System.out::println);
+```
 
 ---
 
@@ -165,6 +213,36 @@ Java 8 전환 방법
 * 기존 자바에서 `null` 사용으로 발생할 수 있던 문제들
 * `java.util.Optional<T>`이 추가됨으로써, 문제를 해결하는 쉬운 방법이 제시됨
 
+```java
+// 일반적인 코드
+String text = getText();
+int length;
+if (text != null) {
+    length = text.length();
+} else {
+    length = 0;
+}
+```
+
+```java
+// Optinal을 사용했지만 이렇게 사용하면 결국 일반적인 코드와 같은 상황
+String text = getText();
+Optional<String> maybeText = Optional.ofNullable(text);
+int length;
+if (maybeText.isPresent()) {
+	length = maybeText.get().length();
+} else {
+	length = 0;
+}
+```
+
+```java
+// Optinal, Method chain, 메소드 참조 등을 활용
+int length = Optional.ofNullable(getText())
+    .map(String::length)
+    .orElse(0);
+```
+
 ---
 
 > 전환 방법
@@ -178,6 +256,31 @@ Java 8 전환 방법
 
 * 기존 API의 설계 결함
 * 쉽게 간단하게 날짜와 시간을 정의하는 새로운 API
+
+```java
+LocalDate localDate = LocalDate.now();
+
+LocalDate.of(2020, 07, 01);
+LocalDate.parse("2020-07-01");
+
+LocalDate tomorrow = LocalDate.now().plusDays(1);
+LocalDate previousMonthSameDay = LocalDate.now().minus(1, ChronoUnit.MONTHS);
+DayOfWeek saturday = LocalDate.parse("2020-07-01").getDayOfWeek();
+int first = LocalDate.parse("2020-07-01").getDayOfMonth();
+
+boolean leapYear = LocalDate.now().isLeapYear();
+
+
+```
+
+```java
+LocalTime now = LocalTime.now();
+
+LocalTime thirteenThirty  = LocalTime.parse("13:30");
+LocalTime thirteenThirty = LocalTime.of(13, 30);
+```
+
+
 
 ---
 
@@ -260,6 +363,12 @@ $ Java \
 ---
 
 > END
+
+
+
+## 레퍼런스
+
+https://www.baeldung.com/java-8-date-time-intro
 
 
 
