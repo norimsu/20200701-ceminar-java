@@ -23,6 +23,8 @@ Java 8 전환 방법
 
 ## Java 버전 히스토리
 
+> Java 8 릴리즈 : 2014년도
+
 |  Java 릴리즈  |  릴리즈 날짜   |
 | :-----------: | :------------: |
 |   Java SE 6   |   2006.12.23   |
@@ -36,29 +38,71 @@ Java 8 전환 방법
 |      Java SE 14      |   2020.03.17   |
 
 >  LTS: Long Term Support
+>
+>  MTS: Medium Term Support
 
 ![java support](https://imgur.com/IiiZvt0.png)
 
+> 이미지 직접 캡쳐: [https://www.oracle.com/java/technologies/java-se-support-roadmap.html](https://www.oracle.com/java/technologies/java-se-support-roadmap.html)
+
+![](https://dzone.com/storage/temp/11772392-screen-shot-2019-05-02-at-41652-pm.png)
+
+> 이미지 링크: [DZone: Beyond Java 8](https://dzone.com/articles/beyond-java-8)
+
 ## Mordern Java
 
-> Java 8에서 추가된 다양한 변화를 때문에, Java 8 이전을 클래식 자바, Java 9 이후를 모던 자바라고 흔히 부른다.
+> Java 8에서 추가된 큰 변화를 때문에, Java 8 이전을 클래식 자바, Java 9 이후를 모던 자바라고 흔히 분류하기도 한다.
 
 * 클래식 자바
 * 모던 자바
+
+![image-20200629103115369](https://github.com/norimsu/20200701-ceminar-java/raw/develop/2-%EB%AA%A8%EB%8D%98-%EC%9E%90%EB%B0%94%EC%9D%98-%EC%8B%9C%EC%9E%91%2C-Java-8.assets/image-20200629103115369.png)
+
+> 이미지 검색: 도서 검색 "Modern Java"
+
+
 
 ## 성능
 
 > 높은 버전의 JDK일 수록 컴파일의 최적화나 GC 알고리즘의 개선을 통해 더 나은 성능을 보여준다.
 
+![](https://cl4es.github.io/images/hellolambda.png)
+
+> 이미지 링크: [OpenJDK Startup From 8 Through 11](https://cl4es.github.io/2018/11/29/OpenJDK-Startup-From-8-Through-11.html)
+
 ## 라이브러리
 
 > 라이브러리들도 자바 버전의 상승에 따라 최소 지원 버전이 상승하고 있다.
+
+* Maven 3.3+ - 최소 Java 1.7 이상
+* Gradle - 기본 Java 8 이상 구동
+
+* Spring 5 - 최소 Java 8 이상
+* 클라우드 서비스 ([MS Azure](https://docs.microsoft.com/ko-kr/azure/developer/java/sdk/java-sdk-azure-get-started), [AWS](https://aws.amazon.com/ko/sdk-for-java/)) - Java 8+
+
+> 스프링 피드백 내용 중
+>
+> "우리는 JDK 8+로 최소값을 올릴 것입니다.
+> 이는 프레임워크 전반에 걸쳐 보다 깨끗한 코드 기반을 구축하고, 핵심 인터페이스에 기본 메서드 구현을 도입하며, 우리의 코어 추상화에서 JDK 8 API(예: Completetable, java.util.function 인터페이스)에 의존할 수 있기 때문에 필수 조건입니다.
+>
+> [Feedback welcome: Spring 5 system requirements](https://spring.io/blog/2015/06/10/feedback-welcome-spring-5-system-requirements)
 
 ## 문제점은?
 
 > Java 9부터 제거된 API들이 존재하고, 모듈 방식을 지원하면서 코드 작성이 필요한 부분이 발생한다.
 
+* Java 8은 거의 모든 OS 에서 지원한다.
 
+* Java 9의 모듈 시스템 (Project Jigsaw)
+* Java 9, 10 에서 제거된 deprecated API
+
+![](http://cr.openjdk.java.net/~mchung/jigsaw/graphs/jdk8-b48-nobase.png)
+
+> 이미지 링크: [https://openjdk.java.net/projects/jigsaw/](http://openjdk.java.net/projects/jigsaw/doc/jdk-modularization.html)
+
+
+
+<!-- -->
 
 ---
 
