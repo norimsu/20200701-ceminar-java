@@ -59,7 +59,7 @@ Java의 진화
 
   > 사람인 검색 결과
 
-![image-20200629061932167](1-Java는-왜-변화하는가.assets/image-20200629061932167.png)
+![image-20200629061932167](https://github.com/norimsu/20200701-ceminar-java/raw/develop/1-Java%EB%8A%94-%EC%99%9C-%EB%B3%80%ED%99%94%ED%95%98%EB%8A%94%EA%B0%80.assets/image-20200629061932167.png)
 
 ## Java의 2가지 측면
 
@@ -103,7 +103,7 @@ Java의 진화
   * 컨테이너 생태계를 확산하기 위해 만들어진 리눅스 재단 산하 단체
   * 상위 프로젝트 중 Java 언어로 이루어진 프로젝트나 Java 관련 프로젝트가 거의 없음
 
-![landscape-1](1-Java는-왜-변화하는가.assets/landscape-1.jpg)
+![landscape-1](https://raw.githubusercontent.com/norimsu/20200701-ceminar-java/develop/1-Java는-왜-변화하는가.assets/landscape-1.jpg)
 
 # Java Ecosystem
 
