@@ -159,7 +159,7 @@ OpenJDK
 
 * 기존에는 Oracle이 주도하는 OracleJDK → 이제는 커뮤니티 주도의 OpenJDK 가 메인
 
-![image-20200701060744126](1-Java는-왜-변화하는가.assets/image-20200701060744126.png)
+![image-20200701060744126](https://raw.githubusercontent.com/norimsu/20200701-ceminar-java/develop/1-Java%EB%8A%94-%EC%99%9C-%EB%B3%80%ED%99%94%ED%95%98%EB%8A%94%EA%B0%80.assets/image-20200701060744126.png)
 
 > 이미지 캡처 : [Java.next() : 박성철](https://www.slideshare.net/OracleDeveloperkr/main-session-java)
 

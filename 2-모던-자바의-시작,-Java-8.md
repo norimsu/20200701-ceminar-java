@@ -137,7 +137,7 @@ Java 8에서 추가된 큰 변화를 때문에, Java 8 이전을 `클래식 자�
 
 ## 버전?
 
-![image-20200701032206564](2-모던-자바의-시작,-Java-8.assets/image-20200701032206564.png)
+![image-20200701032206564](https://raw.githubusercontent.com/norimsu/20200701-ceminar-java/develop/2-%EB%AA%A8%EB%8D%98-%EC%9E%90%EB%B0%94%EC%9D%98-%EC%8B%9C%EC%9E%91%2C-Java-8.assets/image-20200701032206564.png)
 
 > 이미지 1-5. 어떤 버전의 자바가 많이 사용될까? 3/4의 개발자가 Java8을 사용한다.
 > 이미지 직접 캡처 : [JetBrains: 2020년도 개발자 에코시스템의 현황](https://www.jetbrains.com/ko-kr/lp/devecosystem-2020/java/)
