@@ -55,7 +55,7 @@ Java의 진화
 
 * TIOBE INDEX  2위 (2020.06)
 
-![TIOBE](https://i.imgur.com/ycJ8xxZ.png)
+<img src="https://i.imgur.com/ycJ8xxZ.png" style="max-height:500px; max-width:1000px;" />
 
 > 이미지 직접 캡처: [https://www.tiobe.com/tiobe-index/](https://www.tiobe.com/tiobe-index/)
 
@@ -64,8 +64,7 @@ Java의 진화
 * 구인공고
   * 사람인 검색 결과
 
-![image-20200629061932167](https://github.com/norimsu/20200701-ceminar-java/raw/develop/1-Java%EB%8A%94-%EC%99%9C-%EB%B3%80%ED%99%94%ED%95%98%EB%8A%94%EA%B0%80.assets/image-20200629061932167.png)
-
+<img src="https://github.com/norimsu/20200701-ceminar-java/raw/develop/1-Java%EB%8A%94-%EC%99%9C-%EB%B3%80%ED%99%94%ED%95%98%EB%8A%94%EA%B0%80.assets/image-20200629061932167.png" style="max-height:500px; max-width:1000px;" />
 
 > 이미지 직접 캡처: 사람인
 
@@ -78,19 +77,17 @@ Java의 진화
 
 * Java Language
 
-![Figure showing source code, compiler, and Java VM's for Win32, Solaris OS/Linux, and Mac OS](https://docs.oracle.com/javase/tutorial/figures/getStarted/helloWorld.gif)
+<img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/helloWorld.gif" style="max-height:500px; max-width:1000px;" />
 
 * Java Platform
   * JVM, Java API (JDK, JRE)
   * JVM 위에서 사용되는 언어 : Java, Kotlin, Groovy, Skala 등
 
-![Figure showing MyProgram.java, API, Java Virtual Machine, and Hardware-Based Platform](https://docs.oracle.com/javase/tutorial/figures/getStarted/getStarted-jvm.gif)
+<img src="https://docs.oracle.com/javase/tutorial/figures/getStarted/getStarted-jvm.gif" style="max-height:500px; max-width:1000px;" />
 
 > 이미지 링크: https://docs.oracle.com/javase/tutorial/getStarted/intro/definition.html
 
 ---
-
-
 
 <!-- -->
 
@@ -111,7 +108,7 @@ Java의 진화
 * 1.0 부터 스레드 모델을 제공해 멀티 스레드 프로그래밍을 지원했지만  
   BigData(테라바이트 이상 데이터셋) 처리에 필요한 병렬 프로세싱에는 충분하지 못했다.
 
-![](https://miro.medium.com/max/1400/1*crYMLTlfzREkCvyYRE6q1w.png)
+<img src="https://miro.medium.com/max/1400/1*crYMLTlfzREkCvyYRE6q1w.png" style="max-height:500px; max-width:1000px;" />
 
 > 이미지 링크: https://towardsdatascience.com/programming-languages-for-data-scientists-afde2eaf5cc5
 
@@ -123,7 +120,7 @@ Java의 진화
   * 컨테이너 생태계를 확산하기 위해 만들어진 리눅스 재단 산하 단체
   * 상위 프로젝트 중 Java 언어로 이루어진 프로젝트나 Java 관련 프로젝트가 거의 없음
 
-![landscape-1](https://raw.githubusercontent.com/norimsu/20200701-ceminar-java/develop/1-Java는-왜-변화하는가.assets/landscape-1.jpg)
+<img src="https://raw.githubusercontent.com/norimsu/20200701-ceminar-java/develop/1-Java는-왜-변화하는가.assets/landscape-1.jpg" style="max-height:500px; max-width:1000px;" />
 
 > 이미지 직접 캡처: [cncf.io](https://landscape.cncf.io/)
 
@@ -145,13 +142,9 @@ Java의 진화
 
 ---
 
-
-
 <!-- -->
 
 ---
-
-
 
 ## 릴리즈
 
@@ -159,13 +152,13 @@ OpenJDK
 
 * 기존에는 Oracle이 주도하는 OracleJDK → 이제는 커뮤니티 주도의 OpenJDK 가 메인
 
-![image-20200701060744126](https://raw.githubusercontent.com/norimsu/20200701-ceminar-java/develop/1-Java%EB%8A%94-%EC%99%9C-%EB%B3%80%ED%99%94%ED%95%98%EB%8A%94%EA%B0%80.assets/image-20200701060744126.png)
+<img src="https://raw.githubusercontent.com/norimsu/20200701-ceminar-java/develop/1-Java%EB%8A%94-%EC%99%9C-%EB%B3%80%ED%99%94%ED%95%98%EB%8A%94%EA%B0%80.assets/image-20200701060744126.png" style="max-height:500px; max-width:1000px;" />
 
 > 이미지 캡처 : [Java.next() : 박성철](https://www.slideshare.net/OracleDeveloperkr/main-session-java)
 
 * 6개월마다 정기 릴리즈
 
-![](https://dzone.com/storage/temp/11772392-screen-shot-2019-05-02-at-41652-pm.png)
+<img src="https://dzone.com/storage/temp/11772392-screen-shot-2019-05-02-at-41652-pm.png" style="max-height:500px; max-width:1000px;" />
 
 > 이미지 링크: [DZone: Beyond Java 8](https://dzone.com/articles/beyond-java-8)
 
@@ -179,9 +172,7 @@ Java 1.2에서 나눠졌던 스펙인 ME, SE,  EE를 다시 통합 -> SE 하나�
 * Java EE : 이클립스 재단 (Jakarta EE)
   * 클라우드 네이티브 지향
 
-
-
-![](https://www.oracle.com/ocom/groups/public/@otn/documents/digitalasset/2167990.jpg)
+<img src="https://www.oracle.com/ocom/groups/public/@otn/documents/digitalasset/2167990.jpg" style="max-height:500px; max-width:1000px;" />
 
 > 이미지 링크: https://docs.oracle.com/javase/8/docs/index.html
 
@@ -193,11 +184,34 @@ Java 1.2에서 나눠졌던 스펙인 ME, SE,  EE를 다시 통합 -> SE 하나�
 | :-----: | ------------------- | ----------------------- |
 | Java 8  | 람다, 스트림        | 함수형 프로그래밍       |
 | Java 9  | 모듈                | 경량화                  |
-| Java 9  | Reactive Stream API | 반응형 프로래밍         |
+| Java 9  | Reactive Stream API | 반응형 프로그래밍       |
 | Java 9  | JShell              | 인터프리터 언어 같이... |
 | Java 9  | AOT 컴파일러        | 빠른 실행               |
 | Java 10 | `var` 추가          | 지역 타입 추론          |
 | Java 11 | HTTP Client 표준화  | 신규 표준               |
+| Java 14 | `Record` 추가       | 데이터 프로그래밍       |
+
+```java
+// 신규 예약어 var
+// Java SE 10 에서 강화된 타입 추론
+BufferdReader reader = new BufferedReader(new FileReader(file));
+
+var reader = new BufferedReader(new FileReader(file));
+
+URL url = new URL("http://openjdk.java.net");
+URLConnection conn = url.openConnection();
+Scanner scanner = new Scanner(conn.getInputStream(), "UTF-8");
+
+var url = new URL("http://openjdk.java.net");
+var conn = url.openConnection();
+var scanner = new Scanner(conn.getInputStream(), "UTF-8");
+```
+
+```java
+// Java SE 14 에서 추가된 record
+record Point(int x, int y) { }
+record Rectangle(int length, int breadth) { }
+```
 
 ---
 
@@ -209,7 +223,7 @@ Java 1.2에서 나눠졌던 스펙인 ME, SE,  EE를 다시 통합 -> SE 하나�
 * 고성능
   * JIT 컴파일러 및 메모리 구조
 
-![](https://3.bp.blogspot.com/-ePS4BXWiiQU/W6oRErdDe1I/AAAAAAAAAao/xJPIE56lenwahwDbqm3OhFrDXaqX_a-KACLcBGAs/s640/GraalVsHotSpot.png)
+<img src="https://3.bp.blogspot.com/-ePS4BXWiiQU/W6oRErdDe1I/AAAAAAAAAao/xJPIE56lenwahwDbqm3OhFrDXaqX_a-KACLcBGAs/s640/GraalVsHotSpot.png" style="max-height:500px; max-width:1000px;" />
 
 > 이미지 링크: [DZone: GraalVM Database Stream Performanc](https://dzone.com/articles/graalvm-database-stream-performance)
 
@@ -218,14 +232,14 @@ Java 1.2에서 나눠졌던 스펙인 ME, SE,  EE를 다시 통합 -> SE 하나�
     * 네이티브 컴파일을 통해 사전에 컴파일한 프로그램은 시작시간이 빨라지고 사용하는 메모리가 적다.
   * 서버리스, 마이크로서비스
 
-![](https://www.graalvm.org/resources/img/ms_startup_time.png)
+<img src="https://www.graalvm.org/resources/img/ms_startup_time.png" style="max-height:500px; max-width:1000px;" />
 
 > 이미지 링크: [graalvm.org](https://www.graalvm.org/docs/why-graal/)
 
 * 폴리그랏 실행 환경
   * 다양한 언어를 제공하므로 다른 언어의 인기 라이브러리를 직접 호출하여 사용할 수 있고 다양한 언어로 작성된 코드를 함께 구동이 가능
 
-![GraalVM](https://www.graalvm.org/docs/img/graalvm_architecture.png)
+<img src="https://www.graalvm.org/docs/img/graalvm_architecture.png" style="max-height:500px; max-width:1000px;" />
 
 > 이미지 링크: [graalvm.org](https://www.graalvm.org/docs/)
 

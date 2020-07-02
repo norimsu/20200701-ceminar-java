@@ -26,6 +26,8 @@ Java 8 전환 방법
 
 <!-- Java 버전 전환의 필요성 -->
 
+---
+
 ## Java 버전 히스토리
 
 * Java 8 출시 : **2014년**
@@ -49,14 +51,14 @@ Java 8 전환 방법
 * LTS: Long Term Support (↔ non-LTS)
 * MTS: Medium Term Support
 
-![oracle-java-support](https://imgur.com/IiiZvt0.png)
+<img src="https://imgur.com/IiiZvt0.png" style="max-height:500px; max-width:1000px;" />
 
 > 이미지 1-1. Oracle Java SE Support Roadmap (2020.05.13)
 > 이미지 직접 캡쳐: [Oracle Java SE Support Roadmap](https://www.oracle.com/java/technologies/java-se-support-roadmap.html)
 
 ---
 
-![LTS release chart](https://dzone.com/storage/temp/11772392-screen-shot-2019-05-02-at-41652-pm.png)
+<img src="https://dzone.com/storage/temp/11772392-screen-shot-2019-05-02-at-41652-pm.png" style="max-height:500px; max-width:1000px;" />
 
 > 이미지 1-2. Oracle의 정책. 6개월마다 신규 버전 릴리즈, 3년마다 신규 LTS 버전 릴리즈
 > 이미지 링크: [DZone: Beyond Java 8](https://dzone.com/articles/beyond-java-8)
@@ -87,7 +89,7 @@ Java 8에서 추가된 큰 변화를 때문에, Java 8 이전을 `클래식 자�
 * 클래식 자바
 * 모던 자바
 
-![image-20200629103115369](https://github.com/norimsu/20200701-ceminar-java/raw/develop/2-%EB%AA%A8%EB%8D%98-%EC%9E%90%EB%B0%94%EC%9D%98-%EC%8B%9C%EC%9E%91%2C-Java-8.assets/image-20200629103115369.png)
+<img src="https://github.com/norimsu/20200701-ceminar-java/raw/develop/2-%EB%AA%A8%EB%8D%98-%EC%9E%90%EB%B0%94%EC%9D%98-%EC%8B%9C%EC%9E%91%2C-Java-8.assets/image-20200629103115369.png" style="max-height:500px; max-width:1000px;" />
 
 > 이미지 검색: 도서 검색 "Modern Java"
 
@@ -97,7 +99,7 @@ Java 8에서 추가된 큰 변화를 때문에, Java 8 이전을 `클래식 자�
 
 > 높은 버전의 JDK일 수록 컴파일의 최적화, JVM의 하드웨어 최적화나 GC 알고리즘의 개선 등을 통해 더 나은 성능을 보여준다.
 
-![](https://cl4es.github.io/images/hellolambda.png)
+<img src="https://cl4es.github.io/images/hellolambda.png" style="max-height:500px; max-width:1000px;" />
 
 > 이미지 1-3. 버전이 증가할 수록 최적화가 이루어진다.
 > 이미지 링크: [OpenJDK Startup From 8 Through 11](https://cl4es.github.io/2018/11/29/OpenJDK-Startup-From-8-Through-11.html)
@@ -128,7 +130,7 @@ Java 8에서 추가된 큰 변화를 때문에, Java 8 이전을 `클래식 자�
 * Java 9의 모듈 시스템 (Project Jigsaw)
 * Java 9, 10 에서 제거된 deprecated API
 
-![](http://cr.openjdk.java.net/~mchung/jigsaw/graphs/jdk8-b48-nobase.png)
+<img src="http://cr.openjdk.java.net/~mchung/jigsaw/graphs/jdk8-b48-nobase.png" style="max-height:500px; max-width:1000px;" />
 
 > 이미지 1-4. 너무 커져버린 `rt.jar`. 향후 project jigsaw를 통해 격리된 모듈별로 참조할 수 있도록 개선됨.
 > 이미지 링크: [https://openjdk.java.net/projects/jigsaw/](http://openjdk.java.net/projects/jigsaw/doc/jdk-modularization.html)
@@ -137,7 +139,7 @@ Java 8에서 추가된 큰 변화를 때문에, Java 8 이전을 `클래식 자�
 
 ## 버전?
 
-![image-20200701032206564](https://raw.githubusercontent.com/norimsu/20200701-ceminar-java/develop/2-%EB%AA%A8%EB%8D%98-%EC%9E%90%EB%B0%94%EC%9D%98-%EC%8B%9C%EC%9E%91%2C-Java-8.assets/image-20200701032206564.png)
+<img src="https://raw.githubusercontent.com/norimsu/20200701-ceminar-java/develop/2-%EB%AA%A8%EB%8D%98-%EC%9E%90%EB%B0%94%EC%9D%98-%EC%8B%9C%EC%9E%91%2C-Java-8.assets/image-20200701032206564.png" style="max-height:500px; max-width:1000px;" />
 
 > 이미지 1-5. 어떤 버전의 자바가 많이 사용될까? 3/4의 개발자가 Java8을 사용한다.
 > 이미지 직접 캡처 : [JetBrains: 2020년도 개발자 에코시스템의 현황](https://www.jetbrains.com/ko-kr/lp/devecosystem-2020/java/)
@@ -153,8 +155,6 @@ Java 8에서 추가된 큰 변화를 때문에, Java 8 이전을 `클래식 자�
 > [Compatibility Guide for JDK 8](https://www.oracle.com/java/technologies/javase/8-compatibility-guide.html)
 
 ---
-
-
 
 <!-- -->
 
@@ -208,7 +208,7 @@ public interface Vehicle {
 
 * 다중 상속 관계
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Diamond_inheritance.svg/440px-Diamond_inheritance.svg.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Diamond_inheritance.svg/440px-Diamond_inheritance.svg.png" style="height:300px" />
 
 > 이미지 2-1. 다중 상속이 되서 어떤 메소드를 참조해야 하는지 판단할 수 없다면 컴파일 에러가 난다.
 > 이미지 링크 : [Wikipedia: Multiple inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance)
@@ -404,7 +404,7 @@ Java 8 HotSpotVM에서는 Permernant  Heap 영역은 사라지고 Metaspcace 영
 
 > 최근 Java 8에서 JVM 메모리 구조적인 개선 사항으로 Perm 영역이 Metaspace 영역으로 전환되고 기존 Perm 영역은 사라지게 되었다. Metaspace 영역은 Heap이 아닌 Native 메모리 영역으로 취급하게 된다. (Heap 영역은 JVM에 의해 관리된 영역이며, Native 메모리는 OS 레벨에서 관리하는 영역으로 구분된다) Metaspace가 Native 메모리를 이용함으로서 개발자는 영역 확보의 상한을 크게 의식할 필요가 없어지게 되었다.
 
-![](http://equj65.net/wp-content/uploads/2014/05/java7-8HotSpotVM.jpg)
+<img src="http://equj65.net/wp-content/uploads/2014/05/java7-8HotSpotVM.jpg" style="max-height:500px; max-width:1000px;" />
 
 > 이미지 2-2. Metaspace 영역은 OS에서 관리하는 Native 영역이다.
 > 이미지 링크 : http://equj65.net/tech/java8hotspot
@@ -442,9 +442,11 @@ $ Java \
 * 가능하다면 JVM 모니터링 (G1GC, Full GC)을 통해 안정성을 확인
 * Java8의 새로운 기능을 적용했다면 원하는 목적을 달성했는지 확인
 
-![img](https://visualvm.github.io/images/visualvm_screenshot_20.png)
+<img src="https://visualvm.github.io/images/visualvm_screenshot_20.png" style="max-height:500px; max-width:1000px;" />
 
 > 이미지 3-1. Visual VM
+
+---
 
 ## 일반적인 방법
 
@@ -452,6 +454,8 @@ $ Java \
 * 새로운 코드는 Java 8로 작성
 * 기존 코드는 Java 8로 컴파일
 * 기존 바이너리는 JDK8 환경에서 실행
+
+---
 
 ## 새로운 기능 적용
 
@@ -463,6 +467,9 @@ $ Java \
 * 목적에 부합하는지 테스트
 
 ---
+
+<!-- -->
+
 
 > END
 
