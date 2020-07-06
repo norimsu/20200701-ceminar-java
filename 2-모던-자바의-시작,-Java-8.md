@@ -219,7 +219,7 @@ public interface Vehicle {
 
 * 함수형 인터페이스 : 추상 메서드를 1개만 가지고 있는 인터페이스
   * 신규 어노테이션 : `@FunctionalInterface` - 의도와 다른 변경시 컴파일 에러 유발
-* 메서드 레퍼런스 : `ClassName::methodName` 
+* 메서드 레퍼런스 : `ClassName::methodName`
   * 신규 연산자 : `::`
   * 생성자 레퍼런스 : `ClassName::new`
 * Lambda Expression은 함수형 인터페이스인 경우에만 적용이 가능하다.
@@ -300,7 +300,7 @@ if (text != null) {
 ```
 
 ```java
-// Optinal을 사용했지만 이렇게 사용하면 결국 일반적인 코드와 같은 상황
+// Optional을 사용했지만 이렇게 사용하면 결국 일반적인 코드와 같은 상황
 String text = getSomeText();
 Optional<String> maybeText = Optional.ofNullable(text);
 int length;
@@ -312,7 +312,7 @@ if (maybeText.isPresent()) {
 ```
 
 ```java
-// Optinal, Method chain, 메소드 참조 등을 활용
+// Optional, Method chain, 메소드 참조 등을 활용
 int length = Optional.ofNullable(getSomeText())
     .map(String::length)
     .orElse(0);
@@ -474,7 +474,17 @@ $ Java \
 > END
 
 
+---
 
+# References
+
+> 라울-게이브리얼 우르마, 마리오 푸스코, 앨런 마이크로프트 저 / 우정은 역, ["모던 자바 인 액션"](https://www.yes24.com/Product/Goods/771259870), 한빛미디어 (2019) | 원제 : Morden Java in Action  
+> ["Static and Default Method in Interface in Java"](https://www.baeldung.com/java-static-default-methods), Bealdung  
+> Anghel Leonard, ["26 Reasons Why Using Optional Correctly Is Not Optional"](https://dzone.com/articles/using-optional-correctly-is-not-optional), DZone (2018.11.28)  
+> ["Introduction to the Java 8 Date/Time API"](https://www.baeldung.com/java-8-date-time-intro), Baeldung  
+> 기계인간 John Grib, ["JDK 8에서 Perm 영역을 왜 삭제됐을까"](https://johngrib.github.io/wiki/java8-why-permgen-removed/), (2019.09.12)  
+> Michal Kosmulski, ["How to migrate to Java 8"](https://allegro.tech/2014/12/How-to-migrate-to-Java-8.html), allegro.tech blog (2014.12.09)  
+> Trisha Gee, ["Appling Java 8 Idioms to Existing Code"](https://trishagee.github.io/presentation/refactoring_to_java_8/), (2016.06.03)  
 
 
 
@@ -490,6 +500,3 @@ https://www.baeldung.com/java-8-date-time-intro
 # 라이센스
 
 # 기술지원
-
-
-

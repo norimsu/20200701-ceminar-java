@@ -249,7 +249,14 @@ record Rectangle(int length, int breadth) { }
 
 ---
 
+# References
+
+> 라울-게이브리얼 우르마, 마리오 푸스코, 앨런 마이크로프트 저 / 우정은 역, ["모던 자바 인 액션"](https://www.yes24.com/Product/Goods/771259870), 한빛미디어 (2019) | 원제 : Morden Java in Action  
+> 이일민, ["Java 9과 Spring 5로 바라보는 Java의 변화와 도전"](https://www.youtube.com/watch?v=BFjrmj4p3_Y&t=901s), Oracle Korea Youtube (2017.09.08)  
+> Martin Reinhold, ["Java, Today and Tomorrow"](https://www.youtube.com/watch?v=Csc2JRs6470), Devoxx Youtube (2018.11.14)  
+> 박성철, ["미래의 Java 미리보기 - 앰버와 발할라 프로젝트를 중심으로"](https://www.slideshare.net/OracleDeveloperkr/main-session-java), Oracle Korea SlideShare (2018.03.20)  
+> 양수열, ["OpenJDK 새대 개막과 함께 Graalvm이 가지는 의미를 소개합니다"](https://www.youtube.com/watch?v=C6AQTky9ka4), Oracle Korea Youtube (2019.07.31)
+> 김태완, ["GraalVM의 포지션과 역할에 대하여.."](http://taewan.kim/post/position_of_graalvm/), TAEWAN.KIM 블로그 (2018.06.16)  
 
 
 > END
-
